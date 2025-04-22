@@ -1,38 +1,38 @@
-import { NextResponse } from 'next/server'
-import type { NextRequest } from 'next/server'
+import { NextResponse } from 'next/server';
+import type { NextRequest } from 'next/server';
 
-// This function can be marked `async` if using `await` inside
 export function middleware(request: NextRequest) {
-  // Check for both possible cookie names (auth_token from frontend, token from backend)
-  const token = request.cookies.get('auth_token')?.value || request.cookies.get('token')?.value;
-  
-  // Define authentication-protected paths
+  // 1. Try to get token from Authorization header (e.g., Bearer <token>)
+  const authHeader = request.headers.get('authorization');
+  const token = authHeader?.startsWith('Bearer ') ? authHeader.split(' ')[1] : null;
+
+  // 2. Define routes that require authentication
   const protectedPaths = [
     '/user-profile',
     '/user-profile/settings',
-    '/dashboard'
+    '/dashboard',
   ];
-  
-  // Check if the current path is a protected path
-  const isProtectedPath = protectedPaths.some(path => 
+
+  // 3. Check if the current path is protected
+  const isProtected = protectedPaths.some(path =>
     request.nextUrl.pathname.startsWith(path)
   );
-  
-  // If accessing a protected path without a token, redirect to login
-  if (isProtectedPath && !token) {
-    const url = new URL('/auth', request.url);
-    url.searchParams.set('redirect', request.nextUrl.pathname);
-    return NextResponse.redirect(url);
+
+  // 4. Redirect unauthenticated users trying to access protected paths
+  if (isProtected && !token) {
+    const loginUrl = new URL('/auth', request.url);
+    loginUrl.searchParams.set('redirect', request.nextUrl.pathname);
+    return NextResponse.redirect(loginUrl);
   }
-  
+
+  // 5. Continue to next middleware or route
   return NextResponse.next();
 }
 
+// Match all routes except Next.js internals & static files
 export const config = {
   matcher: [
-    // Skip Next.js internals and all static files
-    '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
-    // Always run for API routes
+    '/((?!_next|favicon.ico|.*\\.(?:png|jpg|jpeg|gif|svg|webp|css|js|ts|json|map|woff2?|ttf|eot|mp4|webm|pdf|txt)).*)',
     '/(api|trpc)(.*)',
   ],
-}
+};
