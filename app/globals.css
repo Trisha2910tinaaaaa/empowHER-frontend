@@ -1,3 +1,8 @@
+
+html,body {
+  color-scheme: light !important;
+}
+
 /* Simpler approach that won't break gradients */
 .dark\:bg-gray-900,
 .dark\:bg-gray-800,
