@@ -143,9 +143,9 @@ export default function UserProfilePage() {
     );
   }
 
-  if (!isAuthenticated) {
-    return null; // Will redirect via useEffect
-  }
+ // if (!isAuthenticated) {
+   // return null; // Will redirect via useEffect
+  //}
 
   // Get user display information
   const userFullName = user?.name || profile?.name || "User";
