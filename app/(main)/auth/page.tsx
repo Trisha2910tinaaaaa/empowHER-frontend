@@ -37,7 +37,7 @@ export default function AuthPage() {
       setIsLoading(true);
       await login(loginEmail, loginPassword);
       toast.success("Login successful!");
-      router.push("/profile");
+      router.push("/user-profile");
     } catch (error: any) {
       toast.error(error.response?.data?.message || "Login failed");
     } finally {
@@ -62,7 +62,7 @@ export default function AuthPage() {
       setIsLoading(true);
       await register(name, registerEmail, registerPassword);
       toast.success("Registration successful!");
-      router.push("/profile");
+      router.push("/user-profile");
     } catch (error: any) {
       toast.error(error.response?.data?.message || "Registration failed");
     } finally {
