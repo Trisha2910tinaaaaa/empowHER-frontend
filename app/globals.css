@@ -1,7 +1,34 @@
 
-html {
+html,body {
   color-scheme: light !important;
 }
+
+/* Add this single block to disable all dark mode styles */
+.dark,
+[data-theme="dark"],
+:root[data-theme="dark"],
+.dark-mode,
+[data-mode="dark"] {
+  color-scheme: light !important;
+}
+
+html.dark *,
+*[class*="dark\:"] {
+  --tw-bg-opacity: initial !important;
+  --tw-text-opacity: initial !important;
+  --tw-border-opacity: initial !important;
+  color: inherit !important;
+  background-color: inherit !important;
+  border-color: inherit !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light !important;
+  }
+}
+
+
 
 @tailwind base;
 @tailwind components;
