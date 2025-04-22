@@ -118,7 +118,7 @@ export default function UserProfilePage() {
         if (error.response && error.response.status === 401) {
           // Authentication error
           toast.error('Authentication error. Please login again.');
-          router.push('/auth');
+          //router.push('/auth');
         } else {
           toast.error('Failed to load profile data');
         }
