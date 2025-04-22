@@ -13,9 +13,9 @@ export default function ProtectedLayout({
   const { isAuthenticated, loading } = useAuth();
   
   // If auth is loaded and user is not authenticated, redirect to sign in page
-  if (!loading && !isAuthenticated) {
-    redirect("/auth");
-  }
+  //if (!loading && !isAuthenticated) {
+  //redirect("/auth");
+  //}
 
   return (
     <ThemeProvider defaultTheme="light" attribute="class">
