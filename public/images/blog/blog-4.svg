@@ -1,0 +1,33 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#ECFDF5"/>
+  
+  <!-- Decorative elements -->
+  <rect x="0" y="400" width="800" height="100" fill="#059669" opacity="0.7"/>
+  <circle cx="700" cy="100" r="60" fill="#6EE7B7" opacity="0.5"/>
+  <circle cx="150" cy="150" r="50" fill="#34D399" opacity="0.6"/>
+  
+  <!-- Woman working remotely -->
+  <path d="M400 180 C430 180 455 160 455 130 C455 100 430 80 400 80 C370 80 345 100 345 130 C345 160 370 180 400 180 Z" fill="#065F46"/>
+  <path d="M345 350 L345 230 C345 210 370 190 400 190 C430 190 455 210 455 230 L455 320 L430 320 L430 260 L410 290 L390 260 L375 320 Z" fill="#065F46"/>
+  
+  <!-- Home office desk -->
+  <rect x="250" y="320" width="300" height="15" rx="2" fill="#047857"/>
+  <rect x="270" y="335" width="15" height="50" fill="#047857"/>
+  <rect x="515" y="335" width="15" height="50" fill="#047857"/>
+  
+  <!-- Laptop -->
+  <rect x="320" y="240" width="160" height="10" rx="2" fill="#064E3B"/>
+  <rect x="330" y="180" width="140" height="60" rx="2" fill="#064E3B"/>
+  <rect x="335" y="185" width="130" height="50" rx="1" fill="#D1FAE5"/>
+  
+  <!-- Plants and home elements -->
+  <path d="M580 300 C580 280 570 270 560 270 C550 270 540 280 540 300 Z" fill="#10B981"/>
+  <rect x="550" y="300" width="20" height="20" rx="2" fill="#047857"/>
+  
+  <path d="M240 280 C240 260 230 250 220 250 C210 250 200 260 200 280 Z" fill="#10B981"/>
+  <rect x="210" y="280" width="20" height="40" rx="2" fill="#047857"/>
+  
+  <!-- Title -->
+  <text x="400" y="450" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">The Ultimate Guide to Remote Work in Tech</text>
+</svg> 

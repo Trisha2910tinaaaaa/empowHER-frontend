@@ -1,0 +1,27 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#D1D5DB"/>
+  <!-- Background -->
+  <rect width="800" height="500" fill="#F3E8FF"/>
+  <!-- Decorative elements -->
+  <rect x="0" y="400" width="800" height="100" fill="#8B5CF6" opacity="0.7"/>
+  <circle cx="650" cy="100" r="80" fill="#C084FC" opacity="0.5"/>
+  <circle cx="100" cy="150" r="50" fill="#A855F7" opacity="0.6"/>
+  
+  <!-- Woman silhouette -->
+  <path d="M400 180 C430 180 455 160 455 130 C455 100 430 80 400 80 C370 80 345 100 345 130 C345 160 370 180 400 180 Z" fill="#6D28D9"/>
+  <path d="M340 350 L340 230 C340 210 365 190 400 190 C435 190 460 210 460 230 L460 350 L430 350 L430 270 L410 310 L390 270 L370 350 Z" fill="#6D28D9"/>
+  
+  <!-- Laptop -->
+  <rect x="320" y="300" width="160" height="10" rx="2" fill="#4C1D95"/>
+  <rect x="330" y="240" width="140" height="60" rx="2" fill="#4C1D95"/>
+  <rect x="335" y="245" width="130" height="50" rx="1" fill="#DDD6FE"/>
+  
+  <!-- Code elements -->
+  <rect x="345" y="255" width="50" height="5" rx="2" fill="#6D28D9"/>
+  <rect x="345" y="265" width="80" height="5" rx="2" fill="#6D28D9"/>
+  <rect x="345" y="275" width="60" height="5" rx="2" fill="#6D28D9"/>
+  <rect x="345" y="285" width="70" height="5" rx="2" fill="#6D28D9"/>
+  
+  <!-- Title -->
+  <text x="400" y="450" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">Essential Tech Skills for Women in 2023</text>
+</svg> 

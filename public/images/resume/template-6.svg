@@ -1,0 +1,57 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#F3E8FF"/>
+  
+  <!-- Resume container with gradient effect -->
+  <rect x="150" y="50" width="500" height="400" fill="white" stroke="#C084FC" stroke-width="2"/>
+  
+  <!-- Header with transition-oriented gradient -->
+  <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#8B5CF6"/>
+    <stop offset="100%" stop-color="#D946EF"/>
+  </linearGradient>
+  <rect x="150" y="50" width="500" height="20" fill="url(#headerGradient)"/>
+  
+  <!-- Name and title showing transition -->
+  <rect x="180" y="85" width="220" height="18" rx="2" fill="#6D28D9"/>
+  <rect x="180" y="110" width="80" height="10" rx="2" fill="#8B5CF6"/>
+  <rect x="270" y="110" width="10" height="10" rx="5" fill="#A855F7"/>
+  <rect x="290" y="110" width="80" height="10" rx="2" fill="#D946EF"/>
+  
+  <!-- Contact info with simple layout -->
+  <rect x="180" y="135" width="150" height="10" rx="2" fill="#6B7280"/>
+  <rect x="180" y="155" width="200" height="10" rx="2" fill="#6B7280"/>
+  <rect x="180" y="175" width="120" height="10" rx="2" fill="#6B7280"/>
+  
+  <!-- Professional Summary for Career Changers -->
+  <rect x="180" y="205" width="180" height="14" rx="2" fill="#6D28D9"/>
+  <line x1="180" y1="227" x2="620" y2="227" stroke="#E9D5FF" stroke-width="1"/>
+  
+  <rect x="180" y="240" width="440" height="8" rx="2" fill="#6B7280"/>
+  <rect x="180" y="255" width="440" height="8" rx="2" fill="#6B7280"/>
+  <rect x="180" y="270" width="440" height="8" rx="2" fill="#6B7280"/>
+  <rect x="180" y="285" width="300" height="8" rx="2" fill="#6B7280"/>
+  
+  <!-- Transferable Skills Section -->
+  <rect x="180" y="310" width="160" height="14" rx="2" fill="#6D28D9"/>
+  <line x1="180" y1="332" x2="620" y2="332" stroke="#E9D5FF" stroke-width="1"/>
+  
+  <!-- Skill bubbles showing career transition -->
+  <circle cx="210" cy="352" r="20" fill="#C084FC" opacity="0.7"/>
+  <circle cx="260" cy="352" r="20" fill="#C084FC" opacity="0.7"/>
+  <circle cx="310" cy="352" r="20" fill="#C084FC" opacity="0.7"/>
+  <circle cx="360" cy="352" r="20" fill="#C084FC" opacity="0.7"/>
+  <circle cx="410" cy="352" r="20" fill="#C084FC" opacity="0.7"/>
+  
+  <!-- Previous Experience With New Relevance -->
+  <rect x="180" y="382" width="160" height="14" rx="2" fill="#6D28D9"/>
+  <line x1="180" y1="404" x2="620" y2="404" stroke="#E9D5FF" stroke-width="1"/>
+  
+  <rect x="180" y="415" width="180" height="12" rx="2" fill="#8B5CF6"/>
+  <rect x="380" y="415" width="70" height="10" rx="2" fill="#A855F7"/>
+  <rect x="550" y="415" width="70" height="10" rx="2" fill="#A855F7"/>
+  <rect x="180" y="435" width="440" height="8" rx="2" fill="#6B7280"/>
+  
+  <!-- Career Change label -->
+  <text x="400" y="480" font-family="Arial" font-size="16" font-weight="bold" fill="#6D28D9" text-anchor="middle">Career Change</text>
+</svg> 

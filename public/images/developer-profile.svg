@@ -1,0 +1,61 @@
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.1"/>
+    <stop offset="100%" stop-color="#E879F9" stop-opacity="0.1"/>
+  </linearGradient>
+  <rect width="800" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Abstract code elements and connections -->
+  <path d="M50 200 Q 150 50, 250 180 T 450 150 Q 550 50, 650 180 T 750 150" stroke="#8B5CF6" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <path d="M50 220 Q 150 70, 250 200 T 450 170 Q 550 70, 650 200 T 750 170" stroke="#D946EF" stroke-width="1.5" fill="none" opacity="0.5"/>
+  
+  <!-- Developer silhouette -->
+  <g transform="translate(400, 200) scale(0.8)">
+    <!-- Head -->
+    <circle cx="0" cy="-60" r="35" fill="#6D28D9"/>
+    
+    <!-- Hair -->
+    <path d="M-35 -70 Q -40 -90, -20 -100 Q 0 -110, 20 -100 Q 40 -90, 35 -70 Q 30 -75, 25 -80 Q 15 -85, 0 -85 Q -15 -85, -25 -80 Q -30 -75, -35 -70 Z" fill="#312E81"/>
+    
+    <!-- Body -->
+    <path d="M-30 -30 L-40 50 L-20 50 L-10 80 L10 80 L20 50 L40 50 L30 -30 Q 15 -20, 0 -30 Q -15 -20, -30 -30 Z" fill="#6D28D9"/>
+    
+    <!-- Arms -->
+    <path d="M-30 -20 L-70 30 L-60 40 L-20 0 Z" fill="#6D28D9"/>
+    <path d="M30 -20 L70 30 L60 40 L20 0 Z" fill="#6D28D9"/>
+  </g>
+  
+  <!-- Code elements -->
+  <rect x="130" y="100" width="150" height="100" rx="5" fill="white" opacity="0.8"/>
+  <rect x="140" y="115" width="100" height="10" rx="2" fill="#4F46E5"/>
+  <rect x="140" y="135" width="120" height="10" rx="2" fill="#4F46E5"/>
+  <rect x="140" y="155" width="80" height="10" rx="2" fill="#4F46E5"/>
+  <rect x="140" y="175" width="110" height="10" rx="2" fill="#4F46E5"/>
+  
+  <rect x="520" y="100" width="150" height="100" rx="5" fill="white" opacity="0.8"/>
+  <rect x="530" y="115" width="80" height="10" rx="2" fill="#D946EF"/>
+  <rect x="530" y="135" width="130" height="10" rx="2" fill="#D946EF"/>
+  <rect x="530" y="155" width="100" height="10" rx="2" fill="#D946EF"/>
+  <rect x="530" y="175" width="90" height="10" rx="2" fill="#D946EF"/>
+  
+  <!-- Brackets and symbols -->
+  <text x="110" y="150" font-family="monospace" font-size="40" fill="#6D28D9" opacity="0.5">{</text>
+  <text x="290" y="150" font-family="monospace" font-size="40" fill="#6D28D9" opacity="0.5">}</text>
+  
+  <text x="500" y="150" font-family="monospace" font-size="40" fill="#8B5CF6" opacity="0.5">&lt;</text>
+  <text x="680" y="150" font-family="monospace" font-size="40" fill="#8B5CF6" opacity="0.5">&gt;</text>
+  
+  <!-- Connected nodes -->
+  <circle cx="130" y="280" r="15" fill="#C084FC" opacity="0.7"/>
+  <circle cx="200" y="320" r="15" fill="#A855F7" opacity="0.7"/>
+  <circle cx="280" y="280" r="15" fill="#8B5CF6" opacity="0.7"/>
+  <circle cx="520" y="280" r="15" fill="#A855F7" opacity="0.7"/>
+  <circle cx="600" y="320" r="15" fill="#C084FC" opacity="0.7"/>
+  <circle cx="670" y="280" r="15" fill="#8B5CF6" opacity="0.7"/>
+  
+  <line x1="130" y1="280" x2="200" y2="320" stroke="#A855F7" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="320" x2="280" y2="280" stroke="#A855F7" stroke-width="2" opacity="0.5"/>
+  <line x1="520" y1="280" x2="600" y2="320" stroke="#A855F7" stroke-width="2" opacity="0.5"/>
+  <line x1="600" y1="320" x2="670" y2="280" stroke="#A855F7" stroke-width="2" opacity="0.5"/>
+</svg> 

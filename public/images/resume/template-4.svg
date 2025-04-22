@@ -1,0 +1,64 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#DBEAFE"/>
+  
+  <!-- Resume container -->
+  <rect x="150" y="50" width="500" height="400" fill="white" stroke="#93C5FD" stroke-width="2"/>
+  
+  <!-- Header with tech theme -->
+  <rect x="150" y="50" width="500" height="70" fill="#2563EB"/>
+  
+  <!-- Name and title with tech feel -->
+  <rect x="180" y="65" width="220" height="18" rx="2" fill="white"/>
+  <rect x="180" y="90" width="160" height="12" rx="2" fill="#BFDBFE"/>
+  
+  <!-- Contact info with tech indicators -->
+  <circle cx="570" cy="65" r="12" fill="#BFDBFE"/>
+  <circle cx="570" cy="95" r="12" fill="#BFDBFE"/>
+  <circle cx="535" cy="65" r="12" fill="#BFDBFE"/>
+  <circle cx="535" cy="95" r="12" fill="#BFDBFE"/>
+  
+  <!-- Technical Skills Section -->
+  <rect x="180" y="140" width="120" height="14" rx="2" fill="#1D4ED8"/>
+  <line x1="180" y1="162" x2="620" y2="162" stroke="#93C5FD" stroke-width="1"/>
+  
+  <!-- Skill visualization - Programming -->
+  <rect x="180" y="175" width="80" height="12" rx="2" fill="#2563EB"/>
+  <rect x="310" y="175" width="310" height="12" rx="6" fill="#DBEAFE"/>
+  <rect x="310" y="175" width="250" height="12" rx="6" fill="#60A5FA"/>
+  
+  <!-- Skill visualization - Frameworks -->
+  <rect x="180" y="195" width="80" height="12" rx="2" fill="#2563EB"/>
+  <rect x="310" y="195" width="310" height="12" rx="6" fill="#DBEAFE"/>
+  <rect x="310" y="195" width="210" height="12" rx="6" fill="#60A5FA"/>
+  
+  <!-- Skill visualization - Databases -->
+  <rect x="180" y="215" width="80" height="12" rx="2" fill="#2563EB"/>
+  <rect x="310" y="215" width="310" height="12" rx="6" fill="#DBEAFE"/>
+  <rect x="310" y="215" width="280" height="12" rx="6" fill="#60A5FA"/>
+  
+  <!-- Projects Section -->
+  <rect x="180" y="250" width="120" height="14" rx="2" fill="#1D4ED8"/>
+  <line x1="180" y1="272" x2="620" y2="272" stroke="#93C5FD" stroke-width="1"/>
+  
+  <!-- Project 1 -->
+  <rect x="180" y="285" width="200" height="14" rx="2" fill="#2563EB"/>
+  <rect x="180" y="305" width="440" height="8" rx="2" fill="#64748B"/>
+  <rect x="180" y="320" width="440" height="8" rx="2" fill="#64748B"/>
+  
+  <!-- Code snippet -->
+  <rect x="180" y="340" width="440" height="40" rx="4" fill="#0F172A"/>
+  <rect x="190" y="350" width="60" height="6" rx="2" fill="#60A5FA"/>
+  <rect x="255" y="350" width="90" height="6" rx="2" fill="#F472B6"/>
+  <rect x="190" y="365" width="40" height="6" rx="2" fill="#60A5FA"/>
+  <rect x="235" y="365" width="60" height="6" rx="2" fill="#34D399"/>
+  <rect x="300" y="365" width="80" height="6" rx="2" fill="#F472B6"/>
+  
+  <!-- Experience Section -->
+  <rect x="180" y="400" width="120" height="14" rx="2" fill="#1D4ED8"/>
+  <line x1="180" y1="422" x2="620" y2="422" stroke="#93C5FD" stroke-width="1"/>
+  <rect x="180" y="435" width="180" height="12" rx="2" fill="#2563EB"/>
+  
+  <!-- Tech Specialist label -->
+  <text x="400" y="480" font-family="Courier New, monospace" font-size="16" font-weight="bold" fill="#1D4ED8" text-anchor="middle">Tech Specialist</text>
+</svg> 

@@ -1,0 +1,62 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#FCE7F3"/>
+  
+  <!-- Creative Side Column -->
+  <rect x="150" y="50" width="180" height="400" fill="#DB2777"/>
+  
+  <!-- Main Content Area -->
+  <rect x="330" y="50" width="320" height="400" fill="white"/>
+  
+  <!-- Photo Placeholder -->
+  <circle cx="240" cy="120" r="60" fill="#FBCFE8" stroke="#F472B6" stroke-width="3"/>
+  
+  <!-- Name Section -->
+  <rect x="190" y="200" width="100" height="16" rx="2" fill="white"/>
+  <rect x="190" y="225" width="80" height="12" rx="2" fill="#FBCFE8"/>
+  
+  <!-- Contact Icons -->
+  <circle cx="200" cy="260" r="8" fill="#FBCFE8"/>
+  <circle cx="200" cy="290" r="8" fill="#FBCFE8"/>
+  <circle cx="200" cy="320" r="8" fill="#FBCFE8"/>
+  <rect x="215" y="256" width="80" height="8" rx="2" fill="white"/>
+  <rect x="215" y="286" width="80" height="8" rx="2" fill="white"/>
+  <rect x="215" y="316" width="80" height="8" rx="2" fill="white"/>
+  
+  <!-- Skills Section -->
+  <rect x="190" y="350" width="70" height="12" rx="2" fill="white"/>
+  <rect x="190" y="370" width="100" height="6" rx="3" fill="#FBCFE8"/>
+  <rect x="190" y="384" width="80" height="6" rx="3" fill="#FBCFE8"/>
+  <rect x="190" y="398" width="90" height="6" rx="3" fill="#FBCFE8"/>
+  
+  <!-- Experience Section -->
+  <rect x="350" y="70" width="120" height="16" rx="2" fill="#DB2777"/>
+  <rect x="350" y="100" width="280" height="1" fill="#F9A8D4"/>
+  
+  <!-- Job 1 -->
+  <rect x="350" y="120" width="150" height="14" rx="2" fill="#9D174D"/>
+  <rect x="350" y="140" width="100" height="10" rx="2" fill="#DB2777"/>
+  <rect x="550" y="120" width="70" height="10" rx="2" fill="#DB2777"/>
+  <rect x="350" y="160" width="280" height="8" rx="2" fill="#6B7280"/>
+  <rect x="350" y="175" width="280" height="8" rx="2" fill="#6B7280"/>
+  <rect x="350" y="190" width="200" height="8" rx="2" fill="#6B7280"/>
+  
+  <!-- Job 2 -->
+  <rect x="350" y="220" width="150" height="14" rx="2" fill="#9D174D"/>
+  <rect x="350" y="240" width="100" height="10" rx="2" fill="#DB2777"/>
+  <rect x="550" y="220" width="70" height="10" rx="2" fill="#DB2777"/>
+  <rect x="350" y="260" width="280" height="8" rx="2" fill="#6B7280"/>
+  <rect x="350" y="275" width="280" height="8" rx="2" fill="#6B7280"/>
+  <rect x="350" y="290" width="200" height="8" rx="2" fill="#6B7280"/>
+  
+  <!-- Education Section -->
+  <rect x="350" y="320" width="120" height="16" rx="2" fill="#DB2777"/>
+  <rect x="350" y="350" width="280" height="1" fill="#F9A8D4"/>
+  <rect x="350" y="370" width="180" height="14" rx="2" fill="#9D174D"/>
+  <rect x="350" y="390" width="120" height="10" rx="2" fill="#DB2777"/>
+  <rect x="550" y="370" width="70" height="10" rx="2" fill="#DB2777"/>
+  <rect x="350" y="410" width="280" height="8" rx="2" fill="#6B7280"/>
+  
+  <!-- Creative Modern label -->
+  <text x="400" y="480" font-family="Arial" font-size="16" font-weight="bold" fill="#DB2777" text-anchor="middle">Creative Modern</text>
+</svg> 

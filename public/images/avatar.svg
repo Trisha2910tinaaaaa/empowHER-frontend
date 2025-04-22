@@ -1,0 +1,43 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <linearGradient id="avatarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#A855F7"/>
+    <stop offset="100%" stop-color="#EC4899"/>
+  </linearGradient>
+  <circle cx="150" cy="150" r="150" fill="url(#avatarBg)"/>
+  
+  <!-- Face shape -->
+  <circle cx="150" cy="125" r="70" fill="#F9FAFB"/>
+  
+  <!-- Hair -->
+  <path d="M90 110 Q 80 80, 100 70 Q 120 60, 150 60 Q 180 60, 200 70 Q 220 80, 210 110 Q 205 100, 200 90 Q 180 80, 150 80 Q 120 80, 100 90 Q 95 100, 90 110 Z" fill="#6B7280"/>
+  <path d="M90 110 Q 85 90, 95 80 L 100 90 Q 95 100, 90 110 Z" fill="#6B7280"/>
+  <path d="M210 110 Q 215 90, 205 80 L 200 90 Q 205 100, 210 110 Z" fill="#6B7280"/>
+  
+  <!-- Face features -->
+  <!-- Eyes -->
+  <circle cx="125" cy="120" r="10" fill="#312E81"/>
+  <circle cx="175" cy="120" r="10" fill="#312E81"/>
+  <circle cx="127" cy="117" r="3" fill="white"/>
+  <circle cx="177" cy="117" r="3" fill="white"/>
+  
+  <!-- Eyebrows -->
+  <path d="M115 105 Q 125 100, 135 105" stroke="#6B7280" stroke-width="3" stroke-linecap="round"/>
+  <path d="M165 105 Q 175 100, 185 105" stroke="#6B7280" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M148 120 Q 150 135, 152 135 Q 155 135, 153 140" stroke="#6B7280" stroke-width="2" fill="none"/>
+  
+  <!-- Mouth -->
+  <path d="M130 155 Q 150 165, 170 155" stroke="#6B7280" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Neck -->
+  <rect x="135" y="180" width="30" height="20" fill="#F9FAFB"/>
+  
+  <!-- Shirt/Top -->
+  <path d="M90 230 Q 90 200, 120 190 L 150 200 L 180 190 Q 210 200, 210 230 L 150 250 Z" fill="#8B5CF6"/>
+  
+  <!-- Necklace/Accessory -->
+  <path d="M135 190 L 150 210 L 165 190" stroke="#D1D5DB" stroke-width="2"/>
+  <circle cx="150" cy="210" r="3" fill="#D1D5DB"/>
+</svg> 

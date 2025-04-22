@@ -1,0 +1,29 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#EEF2FF"/>
+  
+  <!-- Decorative elements -->
+  <rect x="0" y="400" width="800" height="100" fill="#4F46E5" opacity="0.7"/>
+  <circle cx="650" cy="120" r="70" fill="#818CF8" opacity="0.5"/>
+  <circle cx="120" cy="130" r="60" fill="#6366F1" opacity="0.6"/>
+  
+  <!-- Woman CTO silhouette -->
+  <path d="M400 170 C430 170 455 150 455 120 C455 90 430 70 400 70 C370 70 345 90 345 120 C345 150 370 170 400 170 Z" fill="#4338CA"/>
+  <path d="M340 350 L340 220 C340 200 365 180 400 180 C435 180 460 200 460 220 L460 350 L440 350 L440 270 L420 300 L400 270 L380 300 L360 350 Z" fill="#4338CA"/>
+  
+  <!-- Glass ceiling breaking effect -->
+  <line x1="150" y1="150" x2="650" y2="150" stroke="#6366F1" stroke-width="3" stroke-dasharray="10 5"/>
+  <line x1="200" y1="130" x2="600" y2="130" stroke="#6366F1" stroke-width="3" stroke-dasharray="10 5"/>
+  <path d="M380 130 L400 100 L420 130" stroke="#4338CA" stroke-width="4"/>
+  
+  <!-- Corporate ladder elements -->
+  <rect x="300" y="220" width="200" height="10" rx="2" fill="#312E81"/>
+  <rect x="300" y="260" width="200" height="10" rx="2" fill="#312E81"/>
+  <rect x="300" y="300" width="200" height="10" rx="2" fill="#312E81"/>
+  <rect x="300" y="340" width="200" height="10" rx="2" fill="#312E81"/>
+  <line x1="320" y1="220" x2="320" y2="340" stroke="#312E81" stroke-width="4"/>
+  <line x1="480" y1="220" x2="480" y2="340" stroke="#312E81" stroke-width="4"/>
+  
+  <!-- Title -->
+  <text x="400" y="450" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">Breaking the Glass Ceiling: Women CTOs</text>
+</svg> 

@@ -1,0 +1,49 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#F8F9FA"/>
+  
+  <!-- Resume outline -->
+  <rect x="150" y="50" width="500" height="400" fill="white" stroke="#E9ECEF" stroke-width="2"/>
+  
+  <!-- Elegant header with gold accent -->
+  <rect x="150" y="50" width="500" height="10" fill="#D4AF37"/>
+  
+  <!-- Name section with classy typography -->
+  <rect x="180" y="80" width="250" height="20" rx="2" fill="#212529"/>
+  <rect x="180" y="110" width="180" height="14" rx="2" fill="#495057"/>
+  
+  <!-- Contact info styled elegantly -->
+  <rect x="180" y="140" width="170" height="10" rx="2" fill="#6C757D"/>
+  <rect x="380" y="140" width="170" height="10" rx="2" fill="#6C757D"/>
+  <rect x="180" y="160" width="170" height="10" rx="2" fill="#6C757D"/>
+  <rect x="380" y="160" width="170" height="10" rx="2" fill="#6C757D"/>
+  
+  <!-- Professional summary -->
+  <rect x="180" y="190" width="440" height="8" rx="2" fill="#ADB5BD"/>
+  <rect x="180" y="205" width="440" height="8" rx="2" fill="#ADB5BD"/>
+  <rect x="180" y="220" width="440" height="8" rx="2" fill="#ADB5BD"/>
+  <rect x="180" y="235" width="300" height="8" rx="2" fill="#ADB5BD"/>
+  
+  <!-- Executive experience section -->
+  <rect x="180" y="265" width="160" height="16" rx="2" fill="#212529"/>
+  <line x1="180" y1="290" x2="620" y2="290" stroke="#DEE2E6" stroke-width="1"/>
+  
+  <!-- Position 1 with leadership focus -->
+  <rect x="180" y="305" width="200" height="14" rx="2" fill="#343A40"/>
+  <rect x="180" y="325" width="150" height="10" rx="2" fill="#495057"/>
+  <rect x="550" y="305" width="70" height="10" rx="2" fill="#495057"/>
+  <rect x="180" y="345" width="440" height="8" rx="2" fill="#ADB5BD"/>
+  <rect x="180" y="360" width="440" height="8" rx="2" fill="#ADB5BD"/>
+  <rect x="180" y="375" width="300" height="8" rx="2" fill="#ADB5BD"/>
+  
+  <!-- Accomplishments bullets with elegant formatting -->
+  <circle cx="190" cy="400" r="3" fill="#D4AF37"/>
+  <rect x="200" y="396" width="300" height="8" rx="2" fill="#6C757D"/>
+  <circle cx="190" cy="415" r="3" fill="#D4AF37"/>
+  <rect x="200" y="411" width="325" height="8" rx="2" fill="#6C757D"/>
+  <circle cx="190" cy="430" r="3" fill="#D4AF37"/>
+  <rect x="200" y="426" width="280" height="8" rx="2" fill="#6C757D"/>
+  
+  <!-- Executive Summary label -->
+  <text x="400" y="480" font-family="Times New Roman, serif" font-size="16" font-weight="bold" fill="#212529" text-anchor="middle">Executive Summary</text>
+</svg> 

@@ -1,0 +1,54 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#ECFDF5"/>
+  
+  <!-- Resume container -->
+  <rect x="150" y="50" width="500" height="400" fill="white" stroke="#A7F3D0" stroke-width="2"/>
+  
+  <!-- Header with approachable green -->
+  <rect x="150" y="50" width="500" height="15" fill="#10B981"/>
+  
+  <!-- Name and title with friendly style -->
+  <rect x="180" y="85" width="200" height="18" rx="2" fill="#065F46"/>
+  <rect x="180" y="115" width="150" height="12" rx="2" fill="#10B981"/>
+  
+  <!-- Contact info with simple layout -->
+  <rect x="180" y="145" width="150" height="10" rx="2" fill="#6B7280"/>
+  <rect x="180" y="165" width="200" height="10" rx="2" fill="#6B7280"/>
+  <rect x="180" y="185" width="150" height="10" rx="2" fill="#6B7280"/>
+  
+  <!-- Education Section Highlighted for Entry Level -->
+  <rect x="180" y="220" width="120" height="14" rx="2" fill="#059669"/>
+  <line x1="180" y1="242" x2="620" y2="242" stroke="#A7F3D0" stroke-width="1"/>
+  
+  <!-- University -->
+  <rect x="180" y="255" width="220" height="14" rx="2" fill="#047857"/>
+  <rect x="180" y="275" width="120" height="10" rx="2" fill="#10B981"/>
+  <rect x="550" y="255" width="70" height="10" rx="2" fill="#10B981"/>
+  <rect x="180" y="295" width="300" height="8" rx="2" fill="#6B7280"/>
+  <rect x="180" y="310" width="220" height="8" rx="2" fill="#6B7280"/>
+  
+  <!-- Skills Section -->
+  <rect x="180" y="335" width="120" height="14" rx="2" fill="#059669"/>
+  <line x1="180" y1="357" x2="620" y2="357" stroke="#A7F3D0" stroke-width="1"/>
+  
+  <!-- Skill columns layout -->
+  <rect x="180" y="370" width="100" height="10" rx="2" fill="#047857"/>
+  <rect x="330" y="370" width="100" height="10" rx="2" fill="#047857"/>
+  <rect x="480" y="370" width="100" height="10" rx="2" fill="#047857"/>
+  
+  <rect x="180" y="388" width="80" height="8" rx="2" fill="#6B7280"/>
+  <rect x="330" y="388" width="80" height="8" rx="2" fill="#6B7280"/>
+  <rect x="480" y="388" width="80" height="8" rx="2" fill="#6B7280"/>
+  
+  <rect x="180" y="404" width="80" height="8" rx="2" fill="#6B7280"/>
+  <rect x="330" y="404" width="80" height="8" rx="2" fill="#6B7280"/>
+  <rect x="480" y="404" width="80" height="8" rx="2" fill="#6B7280"/>
+  
+  <rect x="180" y="420" width="80" height="8" rx="2" fill="#6B7280"/>
+  <rect x="330" y="420" width="80" height="8" rx="2" fill="#6B7280"/>
+  <rect x="480" y="420" width="80" height="8" rx="2" fill="#6B7280"/>
+  
+  <!-- Entry Level label -->
+  <text x="400" y="480" font-family="Arial" font-size="16" font-weight="bold" fill="#059669" text-anchor="middle">Entry Level</text>
+</svg> 
