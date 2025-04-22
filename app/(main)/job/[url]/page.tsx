@@ -40,7 +40,7 @@ interface JobDetail {
 // Fetch job details from our API
 async function getJobDetails(url: string): Promise<JobDetail> {
   // Use the base URL from the environment, or default for local dev
-  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://empowher-six.vercel.app";
   
   // Ensure URL is properly encoded
   const encodedUrl = encodeURIComponent(url);

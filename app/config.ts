@@ -2,7 +2,6 @@
 
 // API URLs
 // Make sure API_URL doesn't have /api twice since the backend might expect direct paths
-// Format should be: http://localhost:5002/api (for backend endpoints like /profile)
 const rawApiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://empowher-node-backend.onrender.com/api';
 
 // Remove any duplicate /api in the path if present

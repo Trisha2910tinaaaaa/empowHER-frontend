@@ -73,7 +73,7 @@ export default function UserProfilePage() {
         setLoading(true);
         
         // Debug to check the exact API url being called
-        console.log("Fetching profile data from:", `${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5002/api'}/profile`);
+        console.log("Fetching profile data from:", `${process.env.NEXT_PUBLIC_API_URL || 'https://empowher-node-backend.onrender.com/api'}/profile`);
         
         try {
           // Fetch profile data
