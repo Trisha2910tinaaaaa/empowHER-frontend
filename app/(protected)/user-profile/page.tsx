@@ -63,7 +63,7 @@ export default function UserProfilePage() {
   // Check if user is authenticated
   useEffect(() => {
     if (!authLoading && !isAuthenticated) {
-      router.push('/auth')
+      //router.push('/auth')
     }
   }, [authLoading, isAuthenticated, router])
 
