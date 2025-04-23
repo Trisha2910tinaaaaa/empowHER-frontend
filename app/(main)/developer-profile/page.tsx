@@ -29,7 +29,7 @@ const developer = {
     { name: "Python", level: 78 },
   ],
   links: {
-    github: "https://github.com/trishasoni",
+    github: "https://github.com/Trisha2910tinaaaaa",
     linkedin: "https://www.linkedin.com/in/trisha-soni-0071ba288/",
     instagram: "https://instagram.com/trisha.codes",
     twitter: "https://twitter.com/trishatech",
