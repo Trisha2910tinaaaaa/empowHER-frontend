@@ -182,7 +182,7 @@ export default function Home() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-pink-50 to-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-pink-800 mb-4">Why Choose CareerSpark?</h2>
+            <h2 className="text-3xl font-bold text-pink-800 mb-4">Why Choose empowHER?</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               We combine AI-powered recommendations with a supportive community to help you achieve your career goals.
             </p>
